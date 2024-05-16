@@ -1,0 +1,203 @@
+.MainBackGround{
+  position: relative;
+  background: black;
+  width: 100%;
+  height: 4000px;
+  text-emphasis-color: white;
+  z-index: 0;
+}
+.Elips{
+  width: 45vw;
+  height: 45vw; 
+  max-width: 1000px;
+  filter: blur(min(20vw,160px));
+  border-radius: 500px; /* Добавлены единицы измерения */
+  top: -30vw;
+  background: #7337BD;
+  position: relative;
+}
+.second{
+  background:  #993677;
+  position: relative;
+  left: min(50vw, 1100px);
+  top: -65vw;
+}
+.AllText{
+  font-family: 'Poppins';
+  top: max(-30vw,-100px);
+  color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 1;
+}
+.NameFirm{
+  position: relative;
+  text-align: center;
+  top: 200px;
+  font-size: min(10vw,128px);
+}
+.Logo{
+  position: absolute;
+  left: -30px;
+  z-index: 2;
+  width: min(30vw,250px);
+  height: min(30vw,250px);
+}
+.NameFirm .Slogan{
+  font-size: min(5vw,65px);
+  position: absolute;
+  left: 55vw;
+  top: min(10vw,130px);
+}
+.NameFirm .SomeTx{
+  font-size: min(4vw,45px);
+  position: relative;
+  top: min(-6vw,0px);
+  left: clamp(-15vw,-20vw,1vw)
+}
+.AllElements{
+  position: relative;
+  z-index: 2;
+}
+.Connect{
+  top: clamp(10px,10vw, 100px);
+  position: relative;
+  left: 71vw;
+  width: min(27vw,400px);
+  height: min(8vw,100px);
+
+  
+}
+.BtText{
+  font-size: min(2.5vw,30px);
+  font-weight: 10px;
+}
+.CurPos{
+  position: relative;
+  top: -34vw;
+}
+.Whyyounedit{
+  position: absolute;
+  top: 5vw;
+  width: 90vw;
+  
+}
+.third{
+  background: #3A2C4A;
+}
+.fourd{
+  background: #635285;
+}
+.WhyYou{
+  position: absolute;
+  top: -10vw;
+  left: 3vw;
+  font-size: min(3.5vw,45px);
+  font-family: 'Play';
+  text-decoration-line: underline;
+}
+.DescrWhuYou{
+  overflow-wrap: break-word; /* Изменено для переноса текста */
+  display: flex;
+  position: absolute;
+  font-size: min(3vw,20px);
+  top: -6vw;
+  left: 4.5vw;
+}
+.AllText{
+  position: relative;
+}
+.OurIndividuality{
+  position: relative;
+  width: 90vw;
+  height: min(75vw,800px);
+  top: -8vw;
+}
+.Whyyounedit .AllText{
+  position: relative;
+  top: -20px;
+}
+.OurIndividuality .AllText{
+  position: relative;
+  top: 13vw;
+}
+.AllFrames{
+  position: absolute;
+  top: 4vw;
+  left: min(15vw,220px);
+}
+.Frame {
+  border-radius: 20px;
+  position: relative;
+  background: #7337BD;
+  display: inline-block;
+  padding: min(7vw,50px) 0 min(12vw,200px) 3px;
+  width: min(20vw,300px);
+  height: fit-content;
+  left: 3vw;
+  box-sizing: border-box;
+  margin-right: 3vw;
+  text-align: center;
+}
+.S{
+  background: #24245D;
+}
+.T{
+  background: #191B27;
+}
+.ImgLogo{
+  border-radius: 90px;
+  position: absolute;
+  background: white;
+  width: min(12vw,100px);
+  height: min(12vw,100px);
+  left: min(4.4vw,100px);
+  top:  min(-4vw,-20px);
+  color: black;
+  text-align: center;
+  padding-top: min(3vw,20px);
+  font-size: min(4vw,40px);
+}
+.FrameText{
+  font-size: min(3vw,20px);
+}
+.TryOurProduct{
+  height: 20vw;
+}
+.TryOurProduct .Connect{
+  position: relative;
+  left: min(4vw,80px);
+  top: -2vw;
+}
+.TryOurProduct .BtText{
+  font-size: min(2.2vw,30px);
+}
+.AllFrameForUs{
+  position: absolute;
+  left: 4vw;
+}
+.FrameForUs{
+  margin-left: 4vw;
+  display: inline-block;
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+  top: -10vw;
+  background: #4E4984;
+  width: min(25vw,300px);
+  height: min(40vw,400px);
+}
+.FrameForUsBottom{
+  border-radius: 5px 5px 0px 0px ;
+  position: relative;
+  top: 60%;
+  background: rgba(255,255,255,0.5);
+  width: 100%;
+  height: 40%;
+  opacity: 1;
+}
+.FrameTextForUS{
+  font-size: 20px;
+  position: relative;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 1);
+  z-index: 2;
+}
