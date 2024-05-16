@@ -49,10 +49,10 @@
   top: min(10vw,130px);
 }
 .NameFirm .SomeTx{
-  font-size: min(4vw,45px);
+  font-size: min(3.5vw,45px);
   position: relative;
   top: min(-6vw,0px);
-  left: clamp(-15vw,-20vw,1vw)
+  left: clamp(-13vw,-20vw,1vw)
 }
 .AllElements{
   position: relative;
