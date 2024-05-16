@@ -2,7 +2,7 @@
   position: relative;
   background: black;
   width: 100%;
-  height: 4000px;
+  height:min(280vw,3600px);
   text-emphasis-color: white;
   z-index: 0;
 }
