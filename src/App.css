@@ -260,7 +260,7 @@
     height: 40vw;
   }
 }
-@media(min-width:400px){
+@media(max-width:400px){
   .Whyyounedit{
     top: -8vw;
   }
