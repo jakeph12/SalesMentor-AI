@@ -270,7 +270,8 @@
   }
   .ImgLogo{
     top: -6vw;
-    left: 30px;
+    left: 20px;
+    width: 100px;
   }
 }
 @media(min-width:460px){
