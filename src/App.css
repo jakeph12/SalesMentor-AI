@@ -242,12 +242,8 @@
     top: -9vw;
   }
 }
-@media(max-width:1024px){
+@media(max-width:412px){
   .OurIndividuality{
-    top: -18vw;
-  }
-  .TryOurProduct{
-    position: relative;
-    top: 30px;
+    top: -10vw;
   }
 }
