@@ -247,3 +247,12 @@
     top: -10vw;
   }
 }
+@media(max-width:1100px){
+  .OurIndividuality{
+    top: -20vw;
+  }
+  .Frame {
+    top: -40px;
+  }
+  
+}
