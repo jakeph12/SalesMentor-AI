@@ -247,12 +247,29 @@
     top: -10vw;
   }
 }
-@media(max-width:1100px){
+@media(min-width:800px){
   .OurIndividuality{
     top: -20vw;
   }
   .Frame {
     top: -40px;
+  }
+  .TryOurProduct{
+    position: relative;
+    top: 20vw;
+    height: 40vw;
+  }
+}
+@media(min-width:460px){
+  .OurIndividuality{
+    top: -7vw;
+  }
+  .Frame {
+    top: -10px;
+  }
+  .ImgLogo{
+    top: -6vw;
+    left: 16px;
   }
   
 }
