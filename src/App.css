@@ -228,3 +228,17 @@
     top: -8vw;
   }
 }
+@media(max-width:430px){
+  .BottomElement{
+    position: relative;
+    top: -40vw;
+  }
+  .OurIndividuality{
+    top: -8vw;
+  }
+}
+@media(max-width:360px){
+  .OurIndividuality{
+    top: -9vw;
+  }
+}
