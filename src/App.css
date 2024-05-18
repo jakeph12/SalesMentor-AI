@@ -138,7 +138,7 @@
   background: #7337BD;
   display: inline-flex;
   padding: min(7vw,50px) 0 min(12vw,200px) 3px;
-  width: min(30vw,250px);
+  width: min(36vw,250px);
   height: min(50vw,300px);;
   left: 3vw;
   box-sizing: border-box;
@@ -267,6 +267,10 @@
   .BottomElement{
     position: relative;
     top: -20vw;
+  }
+  .ImgLogo{
+    top: -6vw;
+    left: 30px;
   }
 }
 @media(min-width:460px){
