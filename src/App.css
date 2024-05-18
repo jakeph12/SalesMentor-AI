@@ -160,7 +160,7 @@
   width: min(20vw,180px);
   height: min(13vw,80px);
   left: min(2vw,150px);
-  top:  min(-2vw,-20px);
+  top:  min(-2vw,-10px);
   color: black;
   text-align: center;
   padding-top: min(3vw,20px);
@@ -281,10 +281,4 @@
   .Frame {
     top: -10px;
   }
-  .ImgLogo{
-    top: -6vw;
-    left: 16px;
-  }
-
-  
 }
